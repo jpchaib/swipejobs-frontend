@@ -18,20 +18,17 @@ As part of the technical test for Swipejobs, the following requirements were met
 
 1. **Clone the Repository**
 
-    git clone https://github.com/jpchaib/swipejobs-frontend.git
-    cd swipejobs-frontend
+    - git clone https://github.com/jpchaib/swipejobs-frontend.git
+    - cd swipejobs-frontend
 
 2. **Install Dependencies**
 
-    Make sure you have Node.js and npm installed. Then, install the required dependencies:
-    npm install
+    - Make sure you have Node.js and npm installed. Then, install the required dependencies: npm install
 
 3. **Run the Application**
 
-    Start the development server:
-    npm start
+    - Start the development server: npm start
 
 4. **Run Tests**
 
-    To run the tests on the getProfile service, use:
-    npm run testJest
+    - To run the tests on the getProfile service, use: npm run testJest
