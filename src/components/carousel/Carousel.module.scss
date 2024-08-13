@@ -1,0 +1,92 @@
+@import "../../style/style.scss";
+
+@media (max-width: $mobile-breakpoint) {
+    .Carousel {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        background-color: $color2;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .Card {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .LeftArrowContainer,
+    .RightArrowContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8%;
+        height: 100%;
+        position: absolute;
+        z-index: 2;
+
+        & img {
+            width: 4vw;
+            height: 7vw;
+            cursor: pointer;
+        }
+    }
+
+    .LeftArrowContainer {
+        left: 0;
+    }
+
+    .RightArrowContainer {
+        right: 0;
+    }
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .Carousel {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .LeftArrowContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8%;
+        height: 100%;
+
+        & img {
+            width: 4vw;
+            height: 7vw;
+            cursor: pointer;
+        }
+    }
+
+    .RightArrowContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8%;
+        height: 100%;
+
+        & img {
+            width: 4vw;
+            height: 7vw;
+            cursor: pointer;
+        }
+    }
+
+    .Card {
+        width: 84%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,106 @@
+@import "../../style/style.scss";
+
+@media (max-width: $mobile-breakpoint) {
+    .Shifts_Container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        height: 10vh;
+        width: 100%;
+
+        & img {
+            width: 25px;
+            height: 25px;
+            padding: 33.3%;
+        }
+
+        & h3 {
+            margin: 0px;
+            text-wrap: nowrap;
+            font-size: clamp(1.2em, 3vw, 10em);
+        }
+
+        & p {
+            text-wrap: nowrap;
+            width: 100%;
+            margin: 0px;
+            text-align: justify;
+            font-size: clamp(1em, 3vw, 10em);
+        }
+    }
+
+    .Image_Container {
+        width: 15%;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .Shifts {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 5%;
+        width: 85%;
+    }
+
+    .Shift_Lines {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+    }
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .Shifts_Container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        height: 10vh;
+        width: 80vw;
+
+        & img {
+            width: 40px;
+            height: 40px;
+            padding: 33.3%;
+        }
+
+        & h3 {
+            margin: 0px;
+            text-wrap: nowrap;
+            font-size: clamp(1.2em, 2.5vw, 1em);
+        }
+
+        & p {
+            text-wrap: nowrap;
+            width: 100%;
+            margin: 0px;
+            text-align: justify;
+            font-size: clamp(1em, 2.5vw, 0.8em);
+        }
+    }
+
+    .Image_Container {
+        width: 20%;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .Shifts {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 5%;
+        height: 80%;
+        width: 80%;
+    }
+
+    .Shift_Lines {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+    }
+}
