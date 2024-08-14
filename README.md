@@ -17,7 +17,7 @@ As part of the technical test for Swipejobs, the following requirements were met
 -   **API Integration**: Utilizes the provided API endpoints to fetch user profiles, job matches, and handle job acceptance/rejection.
 -   **Responsiveness**: The application is designed to be responsive across various screen sizes.
 -   **Modularity**: Code is structured into reusable components for better maintainability.
--   **Testing**: Includes tests written with Jest to ensure the reliability of components and functionality.
+-   **Testing**: Includes tests written with Jest to ensure the reliability of functionality.
 
 ## Project Setup
 
