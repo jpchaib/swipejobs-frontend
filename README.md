@@ -4,6 +4,11 @@
 
 This project is a React application designed to display job matches for users on a job matching site. It features a responsive, modular design and includes functionality for accepting and rejecting jobs. The project adheres to best practices for code readability, modularity, and testability.
 
+![image](https://github.com/user-attachments/assets/44165c10-428e-47e8-a004-cd807d353647)
+
+![image](https://github.com/user-attachments/assets/c5d2cb34-d3fc-484f-9943-b9cb5d549d45)
+
+
 ## Task Description
 
 As part of the technical test for Swipejobs, the following requirements were met:
