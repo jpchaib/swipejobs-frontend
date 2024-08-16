@@ -61,7 +61,7 @@ const Card = ({ index }) => {
                 setMatches(updatedMatches);
                 setRejected(true);
             } else {
-                setMessage(data.message);
+                setRejected(true);
             }
         } catch (error) {
             setMessage(error.message);
